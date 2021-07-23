@@ -33,6 +33,6 @@ pin_run_as_build:
 python:
 - 3.6.* *_cpython
 s2n:
-- 1.0.12
+- 1.0.13
 target_platform:
 - linux-ppc64le
