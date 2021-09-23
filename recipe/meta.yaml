@@ -1,5 +1,5 @@
 {% set name = "awscrt" %}
-{% set version = "0.12.2" %}
+{% set version = "0.12.3" %}
 
 
 package:
@@ -8,13 +8,13 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/awscrt-{{ version }}.tar.gz
-  sha256: c3a5aabac3d5dd5560f147fc8758034fa17bbd2d06793f6e6a30d99eeab2cbda
+  sha256: 441262c36b450286132fde7f110823f7ae7ae909c0f6483a0a2d56150b62f2b5
   patches:
     - 0001-Use-aws-libs-from-PREFIX.patch
     - 0002-Remove-Werror-from-compile-arguments.patch
 
 build:
-  number: 8
+  number: 0
 
 requirements:
   build:
