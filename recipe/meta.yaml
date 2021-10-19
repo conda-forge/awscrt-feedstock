@@ -25,6 +25,7 @@ requirements:
     - python
     - pip
     - s2n  # [linux]
+    - aws-checksums
     - aws-c-common
     - aws-c-cal
     - aws-c-io
