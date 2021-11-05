@@ -9,7 +9,7 @@ aws_c_common:
 aws_c_event_stream:
 - 0.2.7
 aws_c_http:
-- 0.6.9
+- 0.6.10
 aws_c_io:
 - 0.10.13
 aws_c_mqtt:
@@ -31,7 +31,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 docker_image:
-- quay.io/condaforge/linux-anvil-aarch64
+- quay.io/condaforge/linux-anvil-comp7
 pin_run_as_build:
   python:
     min_pin: x.x
