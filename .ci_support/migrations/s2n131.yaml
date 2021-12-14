@@ -3,6 +3,6 @@ __migrator:
   kind: version
   migration_number: 1
   automerge: true
-aws_c_s3:
-- 0.1.29
-migrator_ts: 1638511247.077352
+migrator_ts: 1638377984.068434
+s2n:
+- 1.3.1

@@ -5,17 +5,17 @@ aws_c_auth:
 aws_c_cal:
 - 0.5.12
 aws_c_common:
-- 0.6.17
+- 0.6.18
 aws_c_event_stream:
 - 0.2.7
 aws_c_http:
 - 0.6.10
 aws_c_io:
-- 0.10.14
+- 0.10.15
 aws_c_mqtt:
 - 0.7.10
 aws_c_s3:
-- 0.1.29
+- 0.1.30
 aws_checksums:
 - 0.1.12
 c_compiler:
