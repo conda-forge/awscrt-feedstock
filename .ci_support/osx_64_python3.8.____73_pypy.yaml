@@ -1,0 +1,38 @@
+MACOSX_DEPLOYMENT_TARGET:
+- '10.9'
+aws_c_auth:
+- 0.6.11
+aws_c_cal:
+- 0.5.17
+aws_c_common:
+- 0.6.20
+aws_c_event_stream:
+- 0.2.7
+aws_c_http:
+- 0.6.13
+aws_c_io:
+- 0.10.21
+aws_c_mqtt:
+- 0.7.10
+aws_c_s3:
+- 0.1.38
+aws_checksums:
+- 0.1.12
+c_compiler:
+- clang
+c_compiler_version:
+- '12'
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+macos_machine:
+- x86_64-apple-darwin13.4.0
+pin_run_as_build:
+  python:
+    min_pin: x.x
+    max_pin: x.x
+python:
+- 3.8.* *_73_pypy
+target_platform:
+- osx-64
