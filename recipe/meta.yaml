@@ -9,6 +9,8 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/awscrt-{{ version }}.tar.gz
   sha256: 4a76434b3d1d256d8f9ab9e6b08dd34b6689455cd32fbc342b7b01c273307383
+  patches:
+    - 0001-Don-t-force-static-linkage.patch
 
 build:
   number: 0
