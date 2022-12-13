@@ -13,7 +13,7 @@ source:
     - 0001-Don-t-force-static-linkage.patch
 
 build:
-  number: 12
+  number: 13
 
 requirements:
   build:
