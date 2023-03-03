@@ -1,11 +1,11 @@
-About awscrt
-============
+About awscrt-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/awscrt-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/awslabs/aws-crt-python
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/awscrt-feedstock/blob/main/LICENSE.txt)
 
 Summary: A common runtime for AWS Python projects
 
