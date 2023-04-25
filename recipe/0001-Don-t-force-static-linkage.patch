@@ -1,26 +1,33 @@
-From a70169c64ed657281260b1c32d19e071667b994c Mon Sep 17 00:00:00 2001
+From 5d094436dbcdd127605ad15de55f973e0d254cdc Mon Sep 17 00:00:00 2001
 From: "Uwe L. Korn" <uwe.korn@quantco.com>
-Date: Thu, 3 Nov 2022 13:57:04 +0100
+Date: Tue, 25 Apr 2023 14:33:20 +0200
 Subject: [PATCH] Don't force static linkage
 
 ---
- setup.py | 3 ---
- 1 file changed, 3 deletions(-)
+ setup.py | 10 ----------
+ 1 file changed, 10 deletions(-)
 
 diff --git a/setup.py b/setup.py
-index 1bd2f03..a37fcb2 100644
+index 0d91ed3..d7c6291 100644
 --- a/setup.py
 +++ b/setup.py
-@@ -295,9 +295,6 @@ def awscrt_ext():
+@@ -306,16 +306,6 @@ def awscrt_ext():
          extra_link_args += ['-framework', 'Security']
  
      else:  # unix
 -        # linker will prefer shared libraries over static if it can find both.
--        # force linker to choose static variant by using using "-l:libcrypto.a" syntax instead of just "-lcrypto".
+-        # force linker to choose static variant by using using
+-        # "-l:libaws-c-common.a" syntax instead of just "-laws-c-common".
+-        #
+-        # This helps AWS developers creating Lambda applications from Brazil.
+-        # In Brazil, both shared and static libs are available.
+-        # But Lambda requires all shared libs to be explicitly packaged up.
+-        # So it's simpler to link them in statically and have less runtime dependencies.
 -        libraries = [':lib{}.a'.format(x) for x in libraries]
+-
          # OpenBSD doesn't have librt; functions are found in libc instead.
          if not sys.platform.startswith('openbsd'):
              libraries += ['rt']
 -- 
-2.38.1.windows.1
+2.40.0
 
