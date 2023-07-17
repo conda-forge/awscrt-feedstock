@@ -1,4 +1,4 @@
-{% set version = "0.16.24" %}
+{% set version = "0.16.25" %}
 
 
 package:
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/awscrt/awscrt-{{ version }}.tar.gz
-  sha256: 3ee9e0547c6225dc53151e99cd28b3f2a4f02fdd325adeda1f82deb1a03f6738
+  sha256: 967d11b69d64a8b8c0264a4d0239b825d669a54b3b6be3ea78ae2957a459ed63
   patches:
     - 0001-Don-t-force-static-linkage.patch
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
