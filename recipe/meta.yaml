@@ -12,13 +12,14 @@ source:
     - 0001-Don-t-force-static-linkage.patch
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
