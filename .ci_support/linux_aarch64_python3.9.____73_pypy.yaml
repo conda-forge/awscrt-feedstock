@@ -43,7 +43,7 @@ pin_run_as_build:
 python:
 - 3.9.* *_73_pypy
 s2n:
-- 1.4.12
+- 1.4.13
 target_platform:
 - linux-aarch64
 zip_keys:
