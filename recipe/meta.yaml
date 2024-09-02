@@ -23,6 +23,7 @@ requirements:
   host:
     - python
     - pip
+    - setuptools
     - s2n  # [linux]
     - aws-checksums
     - aws-c-common
