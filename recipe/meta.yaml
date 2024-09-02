@@ -12,7 +12,7 @@ source:
     - 0001-Don-t-force-static-linkage.patch
 
 build:
-  number: 15
+  number: 16
 
 requirements:
   build:
@@ -23,6 +23,7 @@ requirements:
   host:
     - python
     - pip
+    - setuptools
     - s2n  # [linux]
     - aws-checksums
     - aws-c-common
