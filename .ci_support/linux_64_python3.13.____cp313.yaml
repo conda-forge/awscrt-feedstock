@@ -15,7 +15,7 @@ aws_c_mqtt:
 aws_c_s3:
 - 0.6.5
 aws_checksums:
-- 0.1.18
+- 0.1.20
 c_compiler:
 - gcc
 c_compiler_version:
