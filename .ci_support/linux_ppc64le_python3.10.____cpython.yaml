@@ -39,11 +39,9 @@ pin_run_as_build:
 python:
 - 3.10.* *_cpython
 s2n:
-- 1.5.4
+- 1.5.5
 target_platform:
 - linux-ppc64le
 zip_keys:
 - - c_stdlib_version
   - cdt_name
-- - python
-  - channel_sources
