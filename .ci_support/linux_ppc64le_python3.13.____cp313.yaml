@@ -1,7 +1,7 @@
 aws_c_auth:
 - 0.8.1
 aws_c_cal:
-- 0.8.1
+- 0.8.5
 aws_c_common:
 - 0.10.6
 aws_c_event_stream:
@@ -39,6 +39,6 @@ pin_run_as_build:
 python:
 - 3.13.* *_cp313
 s2n:
-- 1.5.11
+- 1.5.13
 target_platform:
 - linux-ppc64le
