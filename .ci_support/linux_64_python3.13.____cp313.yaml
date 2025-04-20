@@ -39,6 +39,6 @@ pin_run_as_build:
 python:
 - 3.13.* *_cp313
 s2n:
-- 1.5.16
+- 1.5.17
 target_platform:
 - linux-64
