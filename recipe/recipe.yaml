@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.27.2"
+  version: "0.27.4"
 
 package:
   name: awscrt
@@ -9,12 +9,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/awscrt/awscrt-${{ version }}.tar.gz
-  sha256: 0c960bc48de60f11ba8c9b32ce1a1ea4985df10b665e0a430cc2f90a32226fb0
+  sha256: cb23cb767ca2e3c0007c899b289d668d28aeb055534df35a741847135f6cd91c
   patches:
     - 0001-Don-t-force-static-linkage.patch
 
 build:
-  number: 10
+  number: 0
 
 requirements:
   build:
