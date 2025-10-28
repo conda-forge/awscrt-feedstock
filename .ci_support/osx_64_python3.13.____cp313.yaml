@@ -1,15 +1,19 @@
+MACOSX_DEPLOYMENT_TARGET:
+- '10.13'
+MACOSX_SDK_VERSION:
+- '10.13'
 aws_c_auth:
 - 0.9.1
 aws_c_cal:
-- 0.9.2
+- 0.9.5
 aws_c_common:
-- 0.12.4
+- 0.12.5
 aws_c_event_stream:
 - 0.5.6
 aws_c_http:
-- 0.10.4
+- 0.10.6
 aws_c_io:
-- 0.22.0
+- 0.23.2
 aws_c_mqtt:
 - 0.13.3
 aws_c_s3:
@@ -17,31 +21,24 @@ aws_c_s3:
 aws_checksums:
 - 0.2.7
 c_compiler:
-- gcc
+- clang
 c_compiler_version:
-- '14'
+- '19'
 c_stdlib:
-- sysroot
+- macosx_deployment_target
 c_stdlib_version:
-- '2.17'
-cdt_name:
-- conda
+- '10.13'
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
-docker_image:
-- quay.io/condaforge/linux-anvil-x86_64:alma9
+macos_machine:
+- x86_64-apple-darwin13.4.0
 pin_run_as_build:
   python:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.10.* *_cpython
-s2n:
-- 1.5.26
+- 3.13.* *_cp313
 target_platform:
-- linux-ppc64le
-zip_keys:
-- - python
-  - channel_sources
+- osx-64
