@@ -366,5 +366,6 @@ Feedstock Maintainers
 =====================
 
 * [@ocefpaf](https://github.com/ocefpaf/)
+* [@tkelman](https://github.com/tkelman/)
 * [@xhochy](https://github.com/xhochy/)
 
