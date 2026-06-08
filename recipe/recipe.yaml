@@ -30,7 +30,7 @@ requirements:
     - python
     - pip
     - setuptools
-    - if: linux
+    - if: unix
       then: s2n
     - aws-checksums
     - aws-c-common
