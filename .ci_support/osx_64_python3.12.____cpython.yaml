@@ -15,9 +15,9 @@ aws_c_http:
 aws_c_io:
 - 0.26.3
 aws_c_mqtt:
-- 0.15.2
+- 0.16.0
 aws_c_s3:
-- 0.12.5
+- 0.12.6
 aws_checksums:
 - 0.2.10
 c_compiler:
@@ -41,6 +41,6 @@ pin_run_as_build:
 python:
 - 3.12.* *_cpython
 s2n:
-- 1.7.3
+- 1.7.4
 target_platform:
 - osx-64
