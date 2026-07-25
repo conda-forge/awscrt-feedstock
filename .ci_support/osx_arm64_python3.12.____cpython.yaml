@@ -41,6 +41,6 @@ pin_run_as_build:
 python:
 - 3.12.* *_cpython
 s2n:
-- 1.7.5
+- 1.7.6
 target_platform:
 - osx-arm64
