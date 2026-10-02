@@ -41,7 +41,7 @@ pin_run_as_build:
 python:
 - 3.14.* *_cp314t
 s2n:
-- 1.7.6
+- 1.7.7
 target_platform:
 - osx-64
 zip_keys:
