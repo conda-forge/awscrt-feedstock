@@ -4,6 +4,5 @@ __migrator:
   migration_number: 1
   bump_number: 1
   automerge: true
-  use_local: true
 aws_c_s3:
   - 1.1
